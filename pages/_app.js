@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import Header from "../components/layout/header/header";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -7,13 +8,13 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
-      ;
+      <Header />
       <Component {...pageProps} />
     </Fragment>
   );
