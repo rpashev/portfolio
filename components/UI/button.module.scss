@@ -1,0 +1,34 @@
+.btn {
+  border: none;
+  font: Roboto;
+  text-decoration: none;
+  color: #edfdee;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+
+  background: #a21caf;
+  min-width: 6rem;
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease-out;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn:hover {
+  background-color: #c026d3;
+}
+
+.outline {
+  border: 3px solid #a21caf;
+  background-color: transparent;
+}
+
+.outline:hover {
+  background-color: #a21caf;
+}
