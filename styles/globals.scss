@@ -1,15 +1,13 @@
+// @import "./variables.scss";
+
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: #1c1d26;
+  background-color: $color-gray;
   margin: 0;
   padding: 0;
-  // background-color: #2b2c3b;
-  // background-color: #31323b;
-  //#edfdee - headings
-  // #5626a9 - main/cta?
-  //#6635bb - main/cta-light
+
   h1,
   h2,
   h3,
@@ -17,45 +15,7 @@ body {
   h5,
   h6 {
     font-family: "Montserrat", sans-serif;
+    color: $color-headings;
     font-weight: 600;
   }
 }
-// :root {
-//     --color-60-lighter: #fff;
-//     --color-60-transp: hsla(0,0%,100%,0.75);
-//     --color-60-light: #edfdee;
-//     --color-60-medium-light: #31323b;
-//     --color-60-medium: #2b2c3b;
-//     --color-60-medium-dark: #1c1d26;
-//     --color-60-dark: #171820;
-//     --color-30-1: hsla(0,0%,100%,0.8);
-//     --color-accent-main: #ff6663;
-//     --color-accent-main-lighter: #ff7370;
-//     --color-accent-sec: #03cea4;
-//     --color-accent-sec-lighter: #0edfb5;
-//     --border-color: #eceeef;
-//     --color-illustration: #5626a9;
-//     --color-illustration-light: #6635bb;
-//     --initial-color-overlay: rgba(31,31,31,0.4);
-//     --mid-colour-overlay: rgba(31,31,31,0.6);
-//     --final-colour-overlay: #1f1f1f;
-//     --tool-color: var(--color-accent-sec);
-//     --tool-name-color: var(--color-60-transp);
-//     --toolbox-header-color: var(--color-60-transp);
-//     --tool-bg-color: var(--color-60-medium-dark);
-//     --card-bg-color: var(--color-60-dark);
-//     --card-header-color: #fff;
-//     --card-text-color: hsla(0,0%,100%,0.82);
-//     --faq-bg-color: rgba(31,31,31,0.8);
-//     --project-card-header-color: hsla(0,0%,100%,0.9);
-//     --project-card-description-color: hsla(0,0%,100%,0.8);
-//     --project-card-tech-color: hsla(0,0%,100%,0.55);
-//     --project-card-tech-border-color: hsla(0,0%,100%,0.4);
-//     --project-button-sec-bg-color: var(--color-60-medium);
-//     --project-button-sec-bg-color-active: var(--color-60-medium-light);
-//     --project-button-sec-text-color: var(--color-60-transp);
-//     --placeholder-color: var(--color-60-transp);
-//     --error-color: #f36;
-//     --default-color: #d6edff;
-//     --success-color: #81e979;
-// }

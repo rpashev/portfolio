@@ -7,8 +7,7 @@
   text-align: center;
   padding: 0.75rem 1.25rem;
   border-radius: 4px;
-
-  background: #a21caf;
+  background: $color-primary;
   min-width: 6rem;
   width: 50%;
   height: auto;
@@ -21,14 +20,16 @@
 }
 
 .btn:hover {
-  background-color: #c026d3;
+  background-color: $color-primary-light;
 }
 
 .outline {
-  border: 3px solid #a21caf;
+  border: 2px solid $color-primary;
+  color: $color-primary-light;
   background-color: transparent;
 }
 
 .outline:hover {
-  background-color: #a21caf;
+  background-color: $color-primary;
+  color: #edfdee;
 }
