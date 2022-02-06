@@ -18,7 +18,7 @@ const Header = (props) => {
             <Link href="#">CONTACT</Link>
           </li>
           <li>
-            <Button>Download CV</Button>
+            <Button mode="cta">Download CV</Button>
           </li>
         </ul>
       </nav>

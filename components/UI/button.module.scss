@@ -1,22 +1,16 @@
 .btn {
   border: none;
-  font: Roboto;
-  text-decoration: none;
-  color: #edfdee;
-  font-size: 1.2rem;
+  font: inherit;
+  color: $color-gray-lightest;
   text-align: center;
   padding: 0.75rem 1.25rem;
   border-radius: 4px;
   background: $color-primary;
   min-width: 6rem;
-  width: 50%;
-  height: auto;
   cursor: pointer;
-  margin-top: 0.5rem;
   transition: all 0.2s ease-out;
   width: auto;
-  margin: 0 auto;
-  display: block;
+  outline: none;
 }
 
 .btn:hover {
@@ -32,4 +26,31 @@
 .outline:hover {
   background-color: $color-primary;
   color: #edfdee;
+}
+
+.outline-transparent {
+  border: 1px solid $color-gray-lightest;
+  background-color: transparent;
+  color: $color-gray-lightest;
+}
+.outline-transparent:hover {
+  background-color: $color-gray-dark;
+}
+
+.light {
+  background-color: $color-gray-lightest;
+  color: $color-gray-dark;
+}
+.light:hover {
+  background-color: $color-gray-light;
+}
+
+.cta {
+  background-color: $danger;
+  color: $color-text;
+  box-shadow: 0 0 4px $color-gray-light;
+}
+
+.cta:hover {
+  background-color: #dc2626;
 }
