@@ -1,9 +1,14 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   height: 6rem;
-  align-items: center;
   padding: 0 4rem;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -15,11 +20,21 @@
       a {
         color: inherit;
         text-decoration: none;
-        transition: color 0.150s ease-out;
+        transition: color 0.15s ease-out;
       }
       a:hover {
         color: $color-primary-lightest;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    justify-content: space-between;
+    padding: 0 1rem;
+    .main-nav {
+      display: none;
     }
   }
 }

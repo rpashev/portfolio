@@ -1,8 +1,9 @@
 .intro {
   width: 80%;
-  height: calc(100vh - 6rem);
-  // padding-bottom: 5rem;
+  height: 100vh;
   margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +31,7 @@
   }
   .cta {
     margin-top: 8rem;
+
     button {
       display: flex;
       align-items: center;
@@ -39,6 +41,30 @@
       span {
         margin-left: 1rem;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    height: auto;
+    padding-top: 10rem;
+    .cta {
+      margin-top: 4rem;
+    }
+  }
+}
+
+@media (max-width: 40rem) {
+  .intro {
+    width: 90%;
+    h1 {
+      font-size: 2rem;
+    }
+    .actions {
+      flex-wrap: wrap;
+      align-items: space-between;
+      height: 150px;
     }
   }
 }

@@ -1,0 +1,29 @@
+.toggle-button {
+  display: none;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+//   position: absolute;
+  left: 0;
+
+  .toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: $color-gray-light;
+    display: block;
+    margin: 0.6rem 0;
+  }
+}
+.toggle-button:focus {
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .toggle-button {
+    display: block;
+  }
+}
