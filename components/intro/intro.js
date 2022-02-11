@@ -17,7 +17,7 @@ const Intro = () => {
         <Button mode="outline-transparent">About Me</Button>
       </div>
       <div className={styles.cta}>
-        <Button>
+        <Button mode="outline">
           <Image src={arrowDown} width={24} height={24}></Image>
           <span>SEE MY WORK</span>
         </Button>

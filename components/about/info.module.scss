@@ -5,20 +5,24 @@
   align-items: center;
   justify-content: center;
 
-  .img-container {
-    width: 220px;
-    height: auto;
-    img {
-      width: 100%;
-      height: 100%;
-      fill: pink;
-    }
-  }
   p {
     font-weight: 500;
     color: $color-gray-lightest;
     font-size: 1.1rem;
     line-height: 1.8;
+  }
+  .actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.75rem;
+    button:first-of-type {
+      margin-right: 2rem;
+    }
+    button:nth-child(2) {
+      box-shadow: none;
+      font-size: 1.2rem;
+    }
   }
 }
 
