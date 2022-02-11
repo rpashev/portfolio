@@ -13,6 +13,7 @@
   }
   .actions {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
     margin-top: 0.75rem;
@@ -37,5 +38,16 @@
 @media (max-width: 40rem) {
   .info {
     max-width: 90%;
+    .actions {
+      justify-content: center;
+      button {
+        width: 100%;
+      }
+      button:first-of-type {
+        margin-right: 0;
+        margin-top: 1rem;
+        order: 2;
+      }
+    }
   }
 }

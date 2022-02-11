@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import Footer from "../components/layout/footer/footer";
 import Header from "../components/layout/header/header";
 import "../styles/globals.scss";
 
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </Fragment>
   );
 }

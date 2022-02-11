@@ -4,7 +4,7 @@ import Skills from "./skills";
 
 const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <h1>About</h1>
       <div className={styles.content}>
         <PersonInfo />

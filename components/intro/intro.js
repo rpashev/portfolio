@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className={styles.intro}>
+    <div className={styles.intro} id="intro">
       <h1>
         Hello, my name is <span>Rosen</span>.
       </h1>
       <h1>I am an aspiring web developer.</h1>
       <div className={styles.actions}>
-        <Socials />
+        <Socials noEmail/>
         <Button mode="light">CONTACT</Button>
         <Button mode="outline-transparent">About Me</Button>
       </div>
