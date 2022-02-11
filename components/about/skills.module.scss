@@ -1,0 +1,16 @@
+.skills {
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .skills {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 40rem) {
+  .skills {
+    width: 95%;
+  }
+}
