@@ -15,7 +15,7 @@ const PersonInfo = () => {
         spend my time reading, keeping fit and playing guitar.
       </p>
       <div className={styles.actions}>
-        <Button mode="light">Send a message</Button>
+        <Button to="#contact" mode="light">Send a message</Button>
         <Button mode="cta">Download CV</Button>
       </div>
     </div>

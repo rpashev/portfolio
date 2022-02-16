@@ -1,5 +1,5 @@
 .btn {
-  all: unset;
+  text-decoration: none;
   display: block;
   border: none;
   color: $color-gray-lightest;
@@ -56,7 +56,6 @@
   background-color: $danger;
   color: $color-text;
   font-weight: 500;
-  box-shadow: 0 0 4px $color-gray-light;
   letter-spacing: 1px;
 }
 

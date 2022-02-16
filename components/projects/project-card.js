@@ -22,11 +22,11 @@ const ProjectCard = (props) => {
         <h2>{title}</h2>
         <p>{description}</p>
         <div className={styles.actions}>
-          <Button to={github}>
+          <Button to={github} newPage>
             <Image src={codeIcon} width={24} height={24}></Image>
             <span>CODE</span>
           </Button>
-          <Button to={live} mode="cta">
+          <Button to={live} newPage mode="cta">
             LIVE
           </Button>
         </div>

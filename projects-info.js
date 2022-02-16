@@ -2,7 +2,7 @@ export default [
   {
     title: "E-commerce app with React",
     description:
-      "A fully responsive Next/React e-commerce application created by using Static Generation for most pages and Server Side Rendering for others. I used a few new to me web technologies in this project that made the development process challenging, engaging and worth the effort.",
+      "A fully responsive Next/React e-commerce application created by using Static Generation for most pages and Server Side Rendering for others. I used a few new to me web technologies in this project that made the development process challenging, engaging and educational.",
     techstack: [
       "React",
       "Next",
