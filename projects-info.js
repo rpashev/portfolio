@@ -1,0 +1,60 @@
+export default projects = [
+  {
+    title: "E-commerce app with React/Next",
+    description:
+      "A fully responsive Next.js dummy e-commerce application created by using Static Generation for most pages and Server Side Rendering for others. I used many new to me technologies in this project that made the development process challenging and very interesting.",
+    techstack: [
+      "React",
+      "Next",
+      "NextAuth",
+      "Redux Toolkit",
+      "Redux Persist",
+      "SASS/SCSS",
+      "Bootstrap 5",
+      "MongoDB",
+      "Axios",
+    ],
+    github: "https://github.com/rpashev/next-ecommerce",
+    live: "https://github.com/rpashev/next-ecommerce",
+    img: "/public/images/movie-project.png",
+  },
+  {
+    title: "Journaling app with Vue",
+    description:
+      "A responsive single page application allowing registered users to create and use personal journals. A great learning experience for me to practice implementing CRUD operations both on frontend and backend.",
+    techstack: [
+      "Vue 3",
+      "VueX",
+      "CSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Mongoose",
+      "Axios",
+    ],
+    github: "https://github.com/rpashev/vue-journal-app",
+    live: "https://github.com/rpashev/vue-journal-app",
+    img: "/public/images/movie-project.png",
+  },
+  {
+    title: "Movie app with React",
+    description:
+      "A responsive single page application allowing registered users to search for movies using an external API and organize the movies in userlists. This was my first full-stack application built with the MERN stack.",
+    techstack: [
+      "React",
+      "Context API",
+      "OMDB API",
+      "SASS/SCSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Mongoose",
+      "Axios",
+    ],
+    github: "https://github.com/rpashev/react-movie-app-mern",
+    live: "https://github.com/rpashev/react-movie-app-mern",
+    img: "/public/images/movie-project.png",
+  },
+];
