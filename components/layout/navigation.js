@@ -12,7 +12,7 @@ const Navigation = (props) => {
         <Link href="#about">ABOUT</Link>
       </li>
       <li>
-        <Link href="#">PROJECTS</Link>
+        <Link href="#projects">PROJECTS</Link>
       </li>
       <li>
         <Link href="#">CONTACT</Link>

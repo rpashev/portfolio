@@ -1,6 +1,13 @@
 import styles from "./button.module.scss";
 
 const Button = (props) => {
+  if (props.to) {
+    return (
+      <a href={props.to} className={`${styles.btn} ${props.mode ? styles[props.mode] : ""}`}>
+        {props.children}
+      </a>
+    );
+  }
   return (
     <button className={`${styles.btn} ${props.mode ? styles[props.mode] : ""}`}>
       {props.children}

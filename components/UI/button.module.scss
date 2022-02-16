@@ -1,6 +1,7 @@
 .btn {
+  all: unset;
+  display: block;
   border: none;
-  font: inherit;
   color: $color-gray-lightest;
   text-align: center;
   padding: 0.75rem 1.25rem;

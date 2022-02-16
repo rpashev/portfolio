@@ -2,7 +2,6 @@
   width: 80%;
   height: 100vh;
   margin: 0 auto;
-  // padding-top: 6rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -24,16 +23,14 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     margin: 0 auto;
     margin-top: 1rem;
-    button {
-      margin-left: 1rem;
-    }
   }
   .cta {
     margin-top: 8rem;
 
-    button {
+    a {
       display: flex;
       align-items: center;
       justify-content: space-between;

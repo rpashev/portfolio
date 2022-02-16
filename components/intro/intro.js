@@ -13,11 +13,11 @@ const Intro = () => {
       <h1>I am an aspiring web developer.</h1>
       <div className={styles.actions}>
         <Socials noEmail/>
-        <Button mode="light">CONTACT</Button>
-        <Button mode="outline-transparent">About Me</Button>
+        <Button to="#contact" mode="light">CONTACT</Button>
+        <Button to="#about" mode="outline-transparent">About Me</Button>
       </div>
       <div className={styles.cta}>
-        <Button mode="outline">
+        <Button to="#projects" mode="outline">
           <Image src={arrowDown} width={24} height={24}></Image>
           <span>SEE MY WORK</span>
         </Button>
