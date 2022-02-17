@@ -4,13 +4,13 @@ import Skills from "./skills";
 
 const About = () => {
   return (
-    <div className={styles.about} id="about">
+    <section className={styles.about} id="about">
       <h1>About</h1>
       <div className={styles.content}>
         <PersonInfo />
         <Skills />
       </div>
-    </div>
+    </section>
   );
 };
 

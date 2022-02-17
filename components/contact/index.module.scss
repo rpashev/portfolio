@@ -1,0 +1,52 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    gap: 1rem;
+
+    .form-control {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      input,
+      textarea {
+        padding: 0.5rem;
+        font: inherit;
+        border: none;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+        background-color: $color-gray-light;
+      }
+      textarea {
+        resize: none;
+      }
+    }
+    button {
+      font-size: 1.2rem;
+    }
+  }
+  .error {
+    color: $error;
+  }
+
+  .success {
+    color: $success;
+  }
+}
+
+@media (max-width: 40rem) {
+  .contact {
+    form {
+      width: 90%;
+    }
+  }
+}

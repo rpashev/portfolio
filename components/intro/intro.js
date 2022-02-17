@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className={styles.intro} id="intro">
+    <section className={styles.intro} id="intro">
       <h1>
         Hello, my name is <span>Rosen</span>.
       </h1>
@@ -22,7 +22,7 @@ const Intro = () => {
           <span>SEE MY WORK</span>
         </Button>
       </div>
-    </div>
+    </section>
   );
 };
 
