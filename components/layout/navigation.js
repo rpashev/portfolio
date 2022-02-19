@@ -15,7 +15,7 @@ const Navigation = (props) => {
         <Link href="#projects">PROJECTS</Link>
       </li>
       <li>
-        <Link href="#">CONTACT</Link>
+        <Link href="#contact">CONTACT</Link>
       </li>
       <li className={styles.cv}>
         {!fromFooter && <Button mode="cta">Download CV</Button>}

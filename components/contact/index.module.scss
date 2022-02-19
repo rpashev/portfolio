@@ -41,11 +41,29 @@
   .success {
     color: $success;
   }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .prompt {
+    width: 25rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: center;
+
+    span {
+      font-weight: 900;
+    }
+  }
 }
 
 @media (max-width: 40rem) {
   .contact {
     form {
+      width: 90%;
+    }
+    .prompt {
       width: 90%;
     }
   }

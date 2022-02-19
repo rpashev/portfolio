@@ -1,11 +1,13 @@
 import ProjectCard from "./project-card";
 import projects from "../../projects-info";
 import styles from "./projects.module.scss";
+import AccountDetails from "./account-details";
 
 const Projects = (props) => {
   return (
     <section className={styles.projects} id="projects">
       <h1>Projects</h1>
+      <AccountDetails />
       <div className={styles.list}>
         {projects.map((project) => {
           return (

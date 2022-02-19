@@ -61,8 +61,12 @@ const Contact = (props) => {
   };
 
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id="contact">
       <h1>Contact</h1>
+      <h2>Want to talk?</h2>
+      <p className={styles.prompt}>
+        Send me a message below or email me at <span>rossen1991@gmail.com</span>
+      </p>
       <form onSubmit={submitHandler}>
         <div className={styles["form-control"]}>
           <label htmlFor="email">Your email</label>
