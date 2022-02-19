@@ -16,6 +16,10 @@
       color: $color-primary-lightest;
     }
   }
+
+  .cv a:hover {
+    color: $color-text;
+  }
 }
 
 .footernav {

@@ -5,14 +5,23 @@
   height: 6rem;
   padding: 0 4rem;
   align-items: center;
-
-  
+  .logo {
+    width: 160px;
+    height: 53px;
+    img {
+      display: block;
+      height: 100%;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
   .header {
     justify-content: space-between;
     padding: 0 1rem;
+    .logo {
+      margin: 0 auto;
+    }
     .main-nav {
       display: none;
     }

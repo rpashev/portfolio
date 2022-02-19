@@ -1,3 +1,7 @@
+import img1 from "./public/images/ecommerce-project.png";
+import img2 from "./public/images/journal-project.png";
+import img3 from "./public/images/movie-project.png";
+
 export default [
   {
     title: "E-commerce app with React",
@@ -15,7 +19,7 @@ export default [
     ],
     github: "https://github.com/rpashev/next-ecommerce/#readme",
     live: "https://github.com/rpashev/next-ecommerce/#readme",
-    img: "/images/ecommerce-project.png",
+    img: img1,
   },
   {
     title: "Journaling app with Vue",
@@ -35,7 +39,7 @@ export default [
     ],
     github: "https://github.com/rpashev/vue-journal-app/#readme",
     live: "https://github.com/rpashev/vue-journal-app/#readme",
-    img: "/images/journal-project.png",
+    img: img2,
   },
   {
     title: "Movie app with React",
@@ -54,6 +58,6 @@ export default [
     ],
     github: "https://github.com/rpashev/react-movie-app-mern/#readme",
     live: "https://github.com/rpashev/react-movie-app-mern/#readme",
-    img: "/images/movie-project.png",
+    img: img3,
   },
 ];

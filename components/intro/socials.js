@@ -9,18 +9,28 @@ const Socials = (props) => {
     <ul className={styles.socials}>
       <li>
         <a href="https://github.com/rpashev" target="_blank">
-          <Image src={github} width={64} height={64}></Image>
+          <Image src={github} width={64} height={64} placeholder="blur"></Image>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/rosenpashev/" target="_blank">
-          <Image src={linkedin} width={64} height={64}></Image>
+          <Image
+            src={linkedin}
+            width={64}
+            height={64}
+            placeholder="blur"
+          ></Image>
         </a>
       </li>
       {!props.noEmail && (
         <li>
           <a href="mailto:rossen1991@gmail.com" target="_blank">
-            <Image src={email} width={64} height={64}></Image>
+            <Image
+              src={email}
+              width={64}
+              height={64}
+              placeholder="blur"
+            ></Image>
           </a>
         </li>
       )}

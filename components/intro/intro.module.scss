@@ -46,7 +46,7 @@
 @media (max-width: 1024px) {
   .intro {
     height: auto;
-    padding-top: 10rem;
+    padding-top: 8rem;
     .cta {
       margin-top: 4rem;
     }
@@ -56,6 +56,7 @@
 @media (max-width: 40rem) {
   .intro {
     width: 90%;
+    padding-top: 4rem;
     h1 {
       font-size: 2rem;
     }
@@ -63,6 +64,9 @@
       flex-wrap: wrap;
       align-items: space-between;
       height: 150px;
+    }
+    .cta {
+      display: none;
     }
   }
 }
