@@ -34,16 +34,16 @@ const MobileNav = (props) => {
       <nav className={`${styles["mobile-nav"]}`} ref={nodeRef}>
         <ul className={`${styles["nav-links"]}`}>
           <li>
-            <Link href="/">ABOUT</Link>
+            <Link href="/#about">ABOUT</Link>
           </li>
           <li>
-            <Link href="/shop">PROJECTS</Link>
+            <Link href="/#projects">PROJECTS</Link>
           </li>
           <li>
-            <Link href="/about">CONTACT</Link>
+            <Link href="/#contact">CONTACT</Link>
           </li>
           <li>
-            <Button>Download CV</Button>
+            <Button to="/dgc.pdf" newPage>Download CV</Button>
           </li>
         </ul>
         <CloseButton close={props.close} />

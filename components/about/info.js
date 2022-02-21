@@ -16,7 +16,7 @@ const PersonInfo = () => {
       </p>
       <div className={styles.actions}>
         <Button to="#contact" mode="light">Send a message</Button>
-        <Button mode="cta">Download CV</Button>
+        <Button to="/dgc.pdf" mode="cta" newPage>Download CV</Button>
       </div>
     </div>
   );

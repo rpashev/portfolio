@@ -1,6 +1,8 @@
 .btn {
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   color: $color-gray-lightest;
   text-align: center;
