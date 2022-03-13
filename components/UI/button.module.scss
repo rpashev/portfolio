@@ -27,13 +27,18 @@
   font-weight: 600;
   color: $color-primary-light;
   background-color: transparent;
-}
 
-.outline:hover {
-  background-color: transparent;
-  box-shadow: 0 0.5em 0.5em -0.4em $color-primary-light;
-  letter-spacing: 3px;
-  transform: translateY(-0.25em);
+  &:hover {
+    background-color: transparent;
+    box-shadow: 0 8px 8px -6px $color-primary-light;
+    letter-spacing: 3px;
+    transform: translateY(-4px);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px $color-primary-light;
+  }
 }
 
 .outline-transparent {

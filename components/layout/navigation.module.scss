@@ -11,14 +11,35 @@
       text-decoration: none;
       transition: color 0.15s ease-out;
       font-weight: 500;
+      position: relative;
     }
-    a:hover {
+    &:hover {
       color: $color-primary-lightest;
+
+      ::before {
+        width: 100%;
+      }
+    }
+
+    ::before {
+      content: "";
+      height: 3px;
+      width: 0px;
+      color: $color-primary-light;
+      background-color: $color-primary-light;
+      transition: all 0.25s;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
     }
   }
 
   .cv a:hover {
     color: $color-text;
+
+    &::before {
+      display: none;
+    }
   }
 }
 
@@ -31,9 +52,14 @@
       display: inline-block;
       font-size: 0.9rem;
       text-transform: lowercase;
-    }
-    a:first-letter {
-      text-transform: capitalize;
+
+      &:first-letter {
+        text-transform: capitalize;
+      }
+
+      &::before {
+        display: none;
+      }
     }
   }
   .cv a {
