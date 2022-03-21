@@ -7,7 +7,7 @@
   padding-top: 0;
   padding-bottom: 0;
   vertical-align: middle;
-//   position: absolute;
+  //   position: absolute;
   left: 0;
 
   .toggle-button__bar {
@@ -22,7 +22,7 @@
   outline: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64em) {
   .toggle-button {
     display: block;
   }

@@ -2,14 +2,14 @@
   width: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64em) {
   .skills {
     width: 80%;
     margin: 0 auto;
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 40em) {
   .skills {
     width: 95%;
   }
