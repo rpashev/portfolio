@@ -1,5 +1,9 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   scroll-behavior: smooth;
 }
 body {
@@ -15,19 +19,24 @@ body {
     min-width: 300px;
     max-width: 2000px;
     margin: 0 auto;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Montserrat", sans-serif;
-      color: $color-gray-lightest;
-      font-weight: 600;
-    }
-    h1 {
-      font-size: 2.8rem;
-      text-align: center;
-    }
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    color: $color-gray-lightest;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+}
+
+::selection {
+  background-color: $color-primary-dark;
 }

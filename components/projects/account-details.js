@@ -7,8 +7,14 @@ const AccountDetails = () => {
         In case you have no time to register, you can use the following account
         to browse all of the below web applications:
       </p>
-      <h4>email: test@mail.com</h4>
-      <h4>password: 123456</h4>
+      <div className={styles.details}>
+        <h4>
+          email: <span>test@mail.com</span>
+        </h4>
+        <h4>
+          password: <span>123456</span>
+        </h4>
+      </div>
     </div>
   );
 };

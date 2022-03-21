@@ -1,16 +1,38 @@
 .account-info {
-  text-align: center;
-  width: 550px;
-  max-width: 90%;
-  margin: 0rem auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 
   p {
     margin-bottom: 0.5rem;
-    margin-top: 0;
+    width: 28rem;
+    max-width: 90%;
+    text-align: center;
   }
 
-  h4 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  .details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: $color-gray-medium;
+    margin-top: 0.5rem;
+
+    h4 {
+      color: $color-gray-light;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    span {
+      color: $color-primary-lightest;
+      margin-left: 0.5rem;
+      font-size: 1.1rem;
+      text-transform: lowercase;
+    }
   }
 }
