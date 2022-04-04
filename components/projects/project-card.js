@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "../UI/button";
 import styles from "./project-card.module.scss";
 import codeIcon from "../../public/images/icons/code-32.png";
+import RestBadge from "../UI/rest-badge";
 
 const ProjectCard = (props) => {
   const { title, img, techstack, description, github, live } = props;
@@ -20,6 +21,7 @@ const ProjectCard = (props) => {
       </div>
       <div className={styles.right}>
         <h2>{title}</h2>
+        {props.rest && <RestBadge link={props.rest} />}
         <p>{description}</p>
         <div className={styles.actions}>
           <Button to={github} newPage>

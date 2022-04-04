@@ -19,6 +19,7 @@ const Projects = (props) => {
               github={project.github}
               live={project.live}
               key={project.github}
+              rest={project.rest}
             />
           );
         })}

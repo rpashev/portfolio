@@ -18,8 +18,9 @@ export default [
       "MongoDB",
     ],
     github: "https://github.com/rpashev/next-ecommerce/#readme",
-    live: "https://github.com/rpashev/next-ecommerce/#readme",
+    live: "https://www.dummy-shop.live/",
     img: img1,
+    rest: false,
   },
   {
     title: "Journaling app with Vue",
@@ -38,8 +39,9 @@ export default [
       "Axios",
     ],
     github: "https://github.com/rpashev/vue-journal-app/#readme",
-    live: "https://github.com/rpashev/vue-journal-app/#readme",
+    live: "https://my-journal.live/",
     img: img2,
+    rest: "https://github.com/rpashev/journal-app-REST",
   },
   {
     title: "Movie app with React",
@@ -57,7 +59,8 @@ export default [
       "Mongoose",
     ],
     github: "https://github.com/rpashev/react-movie-app-mern/#readme",
-    live: "https://github.com/rpashev/react-movie-app-mern/#readme",
+    live: "https://www.my-movies.live/",
     img: img3,
+    rest: "https://github.com/rpashev/rest-movie-apps",
   },
 ];
