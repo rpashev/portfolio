@@ -18,7 +18,7 @@ const PersonInfo = () => {
         <Button to="#contact" mode="light">
           Send a message
         </Button>
-        <Button to="/dgc.pdf" mode="cta" newpage>
+        <Button to="/dgc.pdf" mode="cta" newPage>
           Download CV
         </Button>
       </div>

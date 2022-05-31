@@ -43,7 +43,7 @@ const MobileNav = (props) => {
             <Link href="/#contact">CONTACT</Link>
           </li>
           <li>
-            <Button to="/dgc.pdf" newpage>
+            <Button to="/dgc.pdf" newPage>
               Download CV
             </Button>
           </li>

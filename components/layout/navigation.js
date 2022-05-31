@@ -19,12 +19,12 @@ const Navigation = (props) => {
       </li>
       <li className={styles.cv}>
         {!fromFooter && (
-          <Button to="/dgc.pdf" mode="cta" newpage>
+          <Button to="/dgc.pdf" mode="cta" newPage>
             Download CV
           </Button>
         )}
         {fromFooter && (
-          <a href="/dgc.pdf" target="_blank" newpage>
+          <a href="/dgc.pdf" target="_blank">
             DOWNLOAD CV
           </a>
         )}

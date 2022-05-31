@@ -9,6 +9,8 @@ import nextjsIcon from "../../public/images/techstack/nextjs.svg";
 import nodeIcon from "../../public/images/techstack/nodejs.svg";
 import expressIcon from "../../public/images/techstack/express.svg";
 import mongoIcon from "../../public/images/techstack/mongodb.svg";
+import angularIcon from "../../public/images/techstack/angular.svg";
+import typescriptIcon from "../../public/images/techstack/typescript.svg";
 import TechstackItem from "../UI/techstack-item";
 import styles from "./skills-list.module.scss";
 
@@ -20,6 +22,8 @@ const SkillsList = (props) => {
     { title: "REACT", source: reactIcon },
     { title: "VUE", source: vueIcon },
     { title: "NEXT", source: nextjsIcon },
+    { title: "ANGULAR", source: angularIcon },
+    { title: "TYPESCRIPT", source: typescriptIcon },
     { title: "SASS/SCSS", source: sassIcon },
     { title: "BOOTSTRAP", source: boostrapIcon },
   ];
@@ -36,7 +40,7 @@ const SkillsList = (props) => {
       <ul className={styles.list}>
         {skills.map((skill) => {
           return (
-            <li  key={skill.title}>
+            <li key={skill.title}>
               <TechstackItem title={skill.title} source={skill.source} />
             </li>
           );

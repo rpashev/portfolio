@@ -23,7 +23,7 @@ export default [
     rest: false,
   },
   {
-    title: "Journaling app with Vue",
+    title: "Journal app with Vue",
     description:
       "A responsive single page application allowing registered users to create and use personal journals, where they can manage journal entries. A great learning experience for me to practice implementing CRUD operations, using a REST API I've built with Node, Express and MongoDB.",
     techstack: [
@@ -42,6 +42,26 @@ export default [
     live: "https://my-journal.live/",
     img: img2,
     rest: "https://github.com/rpashev/journal-app-REST",
+  },
+  {
+    title: "Movie app with Angular",
+    description:
+      "A responsive single page application allowing registered users to search for movies using an external API and organize the movies in userlists. Originally built in React (as per below project), the app consumes the same APIs but this time using Angular as a front end framework. ",
+    techstack: [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "SASS/SCSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Mongoose",
+    ],
+    github: "https://github.com/rpashev/angular-movie-app/#readme",
+    live: "https://www.movies-app.live/",
+    img: img3,
+    rest: "https://github.com/rpashev/rest-movie-apps",
   },
   {
     title: "Movie app with React",
