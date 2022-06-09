@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Button from "../UI/button";
 import styles from "./info.module.scss";
 
@@ -18,7 +17,7 @@ const PersonInfo = () => {
         <Button to="#contact" mode="light">
           Send a message
         </Button>
-        <Button to="/dgc.pdf" mode="cta" newPage>
+        <Button to="/rosen-pashev-resume.pdf" mode="cta" newPage>
           Download CV
         </Button>
       </div>
