@@ -11,11 +11,8 @@ const Intro = () => {
         Hello, my name is <span>Rosen</span>.
       </h1>
       <h1>I am an aspiring web developer.</h1>
-      <div className={styles.actions}>
-        <Socials noEmail/>
-        <Button to="#contact" mode="light">CONTACT</Button>
-        <Button to="#about" mode="outline-transparent">About Me</Button>
-      </div>
+
+      <Socials noEmail />
       <div className={styles.cta}>
         <Button to="#projects" mode="outline">
           <Image src={arrowDown} width={24} height={24}></Image>

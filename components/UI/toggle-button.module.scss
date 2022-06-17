@@ -4,11 +4,7 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  padding-top: 0;
-  padding-bottom: 0;
-  vertical-align: middle;
-  //   position: absolute;
-  left: 0;
+  justify-self: start;
 
   .toggle-button__bar {
     width: 100%;

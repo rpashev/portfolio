@@ -1,4 +1,5 @@
 .projects {
+  list-style: none;
   h1 {
     margin-bottom: 2.5rem;
   }
@@ -10,3 +11,9 @@
     justify-content: center;
   }
 }
+
+// @media (max-width: 40em) {
+//   .projects {
+//     margin-top: 4rem;
+//   }
+// }

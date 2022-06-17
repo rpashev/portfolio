@@ -8,7 +8,7 @@ const Projects = (props) => {
     <section className={styles.projects} id="projects">
       <h1>Projects</h1>
       <AccountDetails />
-      <div className={styles.list}>
+      <ul className={styles.list}>
         {projects.map((project) => {
           return (
             <ProjectCard
@@ -23,7 +23,7 @@ const Projects = (props) => {
             />
           );
         })}
-      </div>
+      </ul>
     </section>
   );
 };

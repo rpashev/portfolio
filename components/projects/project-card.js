@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
   const { title, img, techstack, description, github, live } = props;
 
   return (
-    <div className={styles.card}>
+    <li className={styles.card}>
       <div className={styles.left}>
         <div className={styles["img-container"]}>
           <Image src={img} width={550} height={313} placeholder="blur" />
@@ -33,7 +33,7 @@ const ProjectCard = (props) => {
           </Button>
         </div>
       </div>
-    </div>
+    </li>
   );
 };
 

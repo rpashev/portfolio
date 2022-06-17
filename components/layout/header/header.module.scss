@@ -17,10 +17,13 @@
 
 @media (max-width: 64em) {
   .header {
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     padding: 0 1rem;
     .logo {
-      margin: 0 auto;
+      // margin: 0 auto;
+      // grid-column: 2/3;
     }
     .main-nav {
       display: none;

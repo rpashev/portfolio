@@ -22,18 +22,12 @@ const Socials = (props) => {
           ></Image>
         </a>
       </li>
-      {!props.noEmail && (
-        <li>
-          <a href="mailto:rossen1991@gmail.com" target="_blank">
-            <Image
-              src={email}
-              width={64}
-              height={64}
-              placeholder="blur"
-            ></Image>
-          </a>
-        </li>
-      )}
+
+      <li>
+        <a href="mailto:rossen1991@gmail.com" target="_blank">
+          <Image src={email} width={64} height={64} placeholder="blur"></Image>
+        </a>
+      </li>
     </ul>
   );
 };
