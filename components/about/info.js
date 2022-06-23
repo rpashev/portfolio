@@ -6,12 +6,13 @@ const PersonInfo = () => {
     <div className={styles.info}>
       <h2>What drives me?</h2>
       <p>
-        Fully committed to the philosophy of life-long learning, I’m a full
-        stack developer with a deep passion for JavaScript, React and all things
-        web development. The unique combination of creativity, logic, technology
-        and never running out of new things to discover, drives my excitement
-        and passion for web development. When I’m not at my computer I like to
-        spend my time reading, keeping fit and playing guitar.
+        As a naturally very curious person, it made sense for me to immerse
+        myself in web development - a dynamic field where you can learn and
+        apply new things every day. I love building things and care about
+        getting better, challenging myself on a day to day basis. For me, web
+        development is a journey without an end destination and I just enjoy the
+        truly rewarding process of learning how to solve meaningful problems in
+        novel ways.
       </p>
       <div className={styles.actions}>
         <Button to="#contact" mode="light">
