@@ -5,7 +5,7 @@ const Button = (props) => {
     return (
       <a
         href={props.to}
-        target={`${props.newPage ? "_blank" : ""}`}
+        target={`${props.newPage ? "_blank" : "_self"}`}
         rel="noreferrer"
         className={`${styles.btn} ${props.mode ? styles[props.mode] : ""}`}
       >
