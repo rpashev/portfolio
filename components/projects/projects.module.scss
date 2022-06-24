@@ -12,8 +12,10 @@
   }
 }
 
-// @media (max-width: 40em) {
-//   .projects {
-//     margin-top: 4rem;
-//   }
-// }
+@media (max-width: 40em) {
+  .projects {
+    .list {
+      gap: 5rem;
+    }
+  }
+}
