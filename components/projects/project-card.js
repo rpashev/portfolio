@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
     <li className={styles.card}>
       <div className={styles.left}>
         <div className={styles["img-container"]}>
-          <Image src={img} width={550} height={313} placeholder="blur" />
+          <Image src={img} width={550} height={313} placeholder="blur" alt="" />
         </div>
         <ul className={styles.techstack}>
           {techstack.map((item) => (

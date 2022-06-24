@@ -6,6 +6,7 @@ const Button = (props) => {
       <a
         href={props.to}
         target={`${props.newPage ? "_blank" : ""}`}
+        rel="noreferrer"
         className={`${styles.btn} ${props.mode ? styles[props.mode] : ""}`}
       >
         {props.children}

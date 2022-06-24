@@ -1,27 +1,9 @@
-import img1 from "./public/images/ecommerce-project.png";
-import img2 from "./public/images/journal-project.png";
-import img3 from "./public/images/movie-project.png";
+import img1 from "./public/images/journal-project.png";
+import img2 from "./public/images/ecommerce-project.png";
+import img3 from "./public/images/movie-project-1.png";
+import img4 from "./public/images/movie-project-2.png";
 
 export default [
-  {
-    title: "E-commerce app with React",
-    description:
-      "A fully responsive Next/React e-commerce application created by using Static Generation for most pages and Server Side Rendering for others. I used a few new to me web technologies in this project that made the development process challenging, engaging and educational.",
-    techstack: [
-      "React",
-      "Next",
-      "NextAuth",
-      "Redux Toolkit",
-      "Redux Persist",
-      "SCSS",
-      "Bootstrap 5",
-      "MongoDB",
-    ],
-    github: "https://github.com/rpashev/next-ecommerce/#readme",
-    live: "https://www.dummy-shop.live/",
-    img: img1,
-    rest: false,
-  },
   {
     title: "Journal app with Vue",
     description:
@@ -40,8 +22,27 @@ export default [
     ],
     github: "https://github.com/rpashev/vue-journal-app/#readme",
     live: "https://my-journal.live/",
-    img: img2,
+    img: img1,
     rest: "https://github.com/rpashev/journal-app-REST",
+  },
+  {
+    title: "E-commerce app with React",
+    description:
+      "A fully responsive Next/React e-commerce application created by using Static Generation for most pages and Server Side Rendering for others. I used a few new to me web technologies in this project that made the development process challenging, engaging and educational.",
+    techstack: [
+      "React",
+      "Next",
+      "NextAuth",
+      "Redux Toolkit",
+      "Redux Persist",
+      "SCSS",
+      "Bootstrap 5",
+      "MongoDB",
+    ],
+    github: "https://github.com/rpashev/next-ecommerce/#readme",
+    live: "https://www.dummy-shop.live/",
+    img: img2,
+    rest: false,
   },
   {
     title: "Movie app with Angular",
@@ -80,7 +81,7 @@ export default [
     ],
     github: "https://github.com/rpashev/react-movie-app-mern/#readme",
     live: "https://www.my-movies.live/",
-    img: img3,
+    img: img4,
     rest: "https://github.com/rpashev/rest-movie-apps",
   },
 ];
