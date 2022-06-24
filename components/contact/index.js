@@ -78,7 +78,7 @@ const Contact = (props) => {
           />
         </div>
         <div className={styles["form-control"]}>
-          <label htmlFor="email">Subject</label>
+          <label htmlFor="subject">Subject</label>
           <input
             type="text"
             id="subject"

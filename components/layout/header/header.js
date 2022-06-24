@@ -18,7 +18,7 @@ const Header = (props) => {
     <header className={styles.header}>
       <ToggleButton toggleMobileNav={toggleMobileNav} />
       <div className={styles.logo}>
-        <Image src={logo} width={199} height={66} placeholder="blur" />
+        <Image src={logo} width={199} height={66} placeholder="blur" alt="" />
       </div>
       <MobileNav opened={showMobileNav} close={toggleMobileNav} />
       {showMobileNav && <Backdrop close={toggleMobileNav} />}

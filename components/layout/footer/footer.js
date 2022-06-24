@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
       <p>ROSEN PASHEV ©2022 </p>
       <a className={styles.arrow} href="#top" title="Go to top">
-        <Image src={arrowUp} width={55} height={70} />
+        <Image src={arrowUp} width={55} height={70} alt="go to top icon" />
       </a>
     </footer>
   );

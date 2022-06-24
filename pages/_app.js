@@ -1,13 +1,12 @@
 import Head from "next/head";
-import { Fragment } from "react";
 import Footer from "../components/layout/footer/footer";
 import Header from "../components/layout/header/header";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Fragment>
-      <Head>
+    <Html>
+      <Head lang="en">
         <meta
           name="description"
           content="A portfolio application for Rosen Pashev, an aspiring web developer from Bulgaria specializing in JavaScript, CSS, SCSS, HTML, React, Vue, Angular, Node, Mongo, Express, TypeScript"
@@ -23,7 +22,7 @@ function MyApp({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </Fragment>
+    </Html>
   );
 }
 

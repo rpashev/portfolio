@@ -15,7 +15,7 @@ const Intro = () => {
       <Socials noEmail />
       <div className={styles.cta}>
         <Button to="#projects" mode="outline">
-          <Image src={arrowDown} width={24} height={24}></Image>
+          <Image src={arrowDown} width={24} height={24} alt=""></Image>
           <span>SEE MY WORK</span>
         </Button>
       </div>

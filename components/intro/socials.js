@@ -9,7 +9,13 @@ const Socials = (props) => {
     <ul className={styles.socials}>
       <li>
         <a href="https://github.com/rpashev" target="_blank" rel="noreferrer">
-          <Image src={github} width={64} height={64} placeholder="blur"></Image>
+          <Image
+            src={github}
+            width={64}
+            height={64}
+            placeholder="blur"
+            alt="github link"
+          ></Image>
         </a>
       </li>
       <li>
@@ -23,13 +29,20 @@ const Socials = (props) => {
             width={64}
             height={64}
             placeholder="blur"
+            alt="linkedin link"
           ></Image>
         </a>
       </li>
 
       <li>
         <a href="mailto:rossen1991@gmail.com" target="_blank" rel="noreferrer">
-          <Image src={email} width={64} height={64} placeholder="blur"></Image>
+          <Image
+            src={email}
+            width={64}
+            height={64}
+            placeholder="blur"
+            alt="email link"
+          ></Image>
         </a>
       </li>
     </ul>

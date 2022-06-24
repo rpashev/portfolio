@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
         <p>{description}</p>
         <div className={styles.actions}>
           <Button to={github} newPage>
-            <Image src={codeIcon} width={24} height={24}></Image>
+            <Image src={codeIcon} width={24} height={24} alt=""></Image>
             <span>CODE</span>
           </Button>
           <Button to={live} newPage mode="cta">
