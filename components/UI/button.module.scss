@@ -14,6 +14,9 @@
   transition: all 0.2s ease-out;
   width: auto;
   outline: none;
+  &:focus {
+    box-shadow: 0 0 0 4px $color-primary-light;
+  }
 }
 
 .btn:hover {

@@ -16,10 +16,10 @@ const PersonInfo = () => {
       </p>
       <div className={styles.actions}>
         <Button to="#contact" mode="light">
-          Send a message
+          Contact
         </Button>
         <Button to="/rosen-pashev-resume.pdf" mode="cta" newPage>
-          Download CV
+          Resume
         </Button>
       </div>
     </div>
