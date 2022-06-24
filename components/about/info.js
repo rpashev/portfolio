@@ -19,7 +19,7 @@ const PersonInfo = () => {
           Contact
         </Button>
         <Button to="/rosen-pashev-resume.pdf" mode="cta" newPage>
-          Resume
+          cv
         </Button>
       </div>
     </div>
