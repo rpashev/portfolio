@@ -72,3 +72,14 @@
     align-items: center;
   }
 }
+
+@media (hover: none) {
+  .navigation {
+    li a:hover {
+      color: inherit;
+    }
+    .cv a:hover {
+      color: $color-primary-light;
+    }
+  }
+}

@@ -69,3 +69,24 @@
 .cta:hover {
   background-color: #dc2626;
 }
+
+@media (hover: none) {
+  .btn:hover {
+    background-color: $color-primary;
+  }
+  .outline:hover,
+  .outline:active {
+    box-shadow: none;
+    letter-spacing: 2px;
+    transform: none;
+  }
+  .cta:hover {
+    background-color: $color-danger;
+  }
+  .light:hover {
+    background-color: $color-gray-lightest;
+  }
+  .outline-transparent:hover {
+    background-color: $color-gray-lightest;
+  }
+}

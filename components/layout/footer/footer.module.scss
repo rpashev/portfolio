@@ -51,3 +51,9 @@
     }
   }
 }
+
+@media (hover: none) {
+  .footer .arrow:hover {
+    transform: none;
+  }
+}

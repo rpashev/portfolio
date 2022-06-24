@@ -21,3 +21,11 @@
     }
   }
 }
+
+@media (hover: none) {
+  .socials {
+    li a:hover {
+      transform: none;
+    }
+  }
+}

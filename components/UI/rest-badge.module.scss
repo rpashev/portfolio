@@ -61,3 +61,17 @@
     width: 10rem;
   }
 }
+
+@media (hover: none) {
+  .badge {
+    a:hover,
+    a:active {
+      gap: 0.6rem;
+      background: linear-gradient(
+        to right,
+        $color-gray-light,
+        $color-gray-lightest
+      );
+    }
+  }
+}

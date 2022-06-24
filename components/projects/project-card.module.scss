@@ -126,5 +126,10 @@
         margin: 0;
       }
     }
+
+    a:active,
+    a:hover {
+      transform: none;
+    }
   }
 }
