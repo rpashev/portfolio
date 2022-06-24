@@ -77,6 +77,9 @@
   .btn:hover {
     background-color: $color-primary;
   }
+  .btn:focus {
+    box-shadow: none;
+  }
   .outline:hover,
   .outline:active {
     box-shadow: none;
