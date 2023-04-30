@@ -11,6 +11,8 @@ import expressIcon from "../../public/images/techstack/express.svg";
 import mongoIcon from "../../public/images/techstack/mongodb.svg";
 import angularIcon from "../../public/images/techstack/angular.svg";
 import typescriptIcon from "../../public/images/techstack/typescript.svg";
+import quasarIcon from "../../public/images/techstack/quasar.svg";
+import matUIIcon from "../../public/images/techstack/mat-ui.svg";
 import TechstackItem from "../UI/techstack-item";
 import styles from "./skills-list.module.scss";
 
@@ -21,10 +23,12 @@ const SkillsList = (props) => {
     { title: "JAVASCRIPT", source: jsIcon },
     { title: "REACT", source: reactIcon },
     { title: "VUE", source: vueIcon },
-    { title: "NEXT", source: nextjsIcon },
     { title: "ANGULAR", source: angularIcon },
+    { title: "NEXT", source: nextjsIcon },
     { title: "TYPESCRIPT", source: typescriptIcon },
     { title: "SASS/SCSS", source: sassIcon },
+    { title: "MATERIAL UI", source: matUIIcon },
+    { title: "QUASAR", source: quasarIcon },
     { title: "BOOTSTRAP", source: boostrapIcon },
   ];
   const backendSkills = [

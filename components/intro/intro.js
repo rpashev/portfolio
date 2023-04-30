@@ -10,7 +10,7 @@ const Intro = () => {
       <h1>
         Hello, my name is <span>Rosen</span>.
       </h1>
-      <h1>I am an aspiring web developer.</h1>
+      <h1>I am a frontend software developer.</h1>
 
       <Socials noEmail />
       <div className={styles.cta}>
