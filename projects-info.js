@@ -2,8 +2,29 @@ import img1 from "./public/images/journal-project.png";
 import img2 from "./public/images/ecommerce-project.png";
 import img3 from "./public/images/movie-project-1.png";
 import img4 from "./public/images/movie-project-2.png";
+import img5 from "./public/images/recipe-app-project.png";
 
 export default [
+  {
+    title: "Journal app with React",
+    description:
+      "A fully responsive single page application allowing registered users to create and use personal journals, where they can manage journal entries. Originally built with Vue (as per below project), now rebuilt with React using a REST API I've built with Node, Express and MongoDB. ",
+    techstack: [
+      "React",
+      "TypeScript",
+      "Material UI",
+      "React-Query",
+      "React-Quill",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Axios",
+    ],
+    github: "https://github.com/rpashev/react-journal-app/#readme",
+    live: "https://my-journal-app-react.netlify.app/",
+    img: img1,
+    rest: "https://github.com/rpashev/journal-app-REST",
+  },
   {
     title: "Journal app with Vue",
     description:
@@ -21,10 +42,31 @@ export default [
       "Axios",
     ],
     github: "https://github.com/rpashev/vue-journal-app/#readme",
-    live: "https://my-journal.live/",
+    live: "https://my-journal-rp.netlify.app/",
     img: img1,
     rest: "https://github.com/rpashev/journal-app-REST",
   },
+  {
+    title: "Recipe app with Angular",
+    description:
+      "A responsive single page application allowing registered users to manage cooking recipes. Built with Angular and Angular Material as a final project for an Angular software academy course, using a REST API I've built with Node, Express and MongoDB.",
+    techstack: [
+      "Angular",
+      "Angular Material",
+      "TypeScript",
+      "RxJS",
+      "SASS/SCSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "JWT",
+    ],
+    github: "https://github.com/rpashev/angular-recipe-app/#readme",
+    live: "https://my-recipes-rp.netlify.app/",
+    img: img5,
+    rest: "https://github.com/rpashev/recipes-REST-express",
+  },
+
   {
     title: "E-commerce app with React",
     description:
@@ -40,7 +82,7 @@ export default [
       "MongoDB",
     ],
     github: "https://github.com/rpashev/next-ecommerce/#readme",
-    live: "https://www.dummy-shop.live/",
+    live: "https://next-ecommerce-rpashev.vercel.app/",
     img: img2,
     rest: false,
   },
@@ -60,7 +102,7 @@ export default [
       "Mongoose",
     ],
     github: "https://github.com/rpashev/angular-movie-app/#readme",
-    live: "https://www.movies-app.live/",
+    live: "https://movies-app-angular-rp.netlify.app/",
     img: img3,
     rest: "https://github.com/rpashev/rest-movie-apps",
   },
@@ -80,7 +122,7 @@ export default [
       "Mongoose",
     ],
     github: "https://github.com/rpashev/react-movie-app-mern/#readme",
-    live: "https://www.my-movies.live/",
+    live: "https://movies-app-react-rp.netlify.app/",
     img: img4,
     rest: "https://github.com/rpashev/rest-movie-apps",
   },
