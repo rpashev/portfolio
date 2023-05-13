@@ -2,6 +2,8 @@ import { useState } from "react";
 import Button from "../UI/button";
 import styles from "./index.module.scss";
 
+const access_key = "cb14bcfc-f60b-498a-bf59-78e91005dc0b";
+
 const Contact = (props) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -26,23 +28,23 @@ const Contact = (props) => {
     }
 
     setLoading(true);
-
     try {
-      const response = await fetch("/api/contact", {
-        body: JSON.stringify({
-          email,
-          message,
-          subject,
-        }),
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        method: "POST",
+        body: JSON.stringify({
+          access_key,
+          email,
+          subject,
+          message,
+        }),
       });
-      const { error } = await response.json();
+      const { success } = await response.json();
 
-      if (error) {
-        setError(error);
+      if (!success) {
+        setError("Couldn't send message, something went wrong!");
       } else {
         setSuccess(true);
         resetInput();
@@ -68,6 +70,7 @@ const Contact = (props) => {
         Send me a message below or email me at <span>rossen1991@gmail.com</span>
       </p>
       <form onSubmit={submitHandler}>
+        <input type="hidden" name="access_key" value={access_key} />
         <div className={styles["form-control"]}>
           <label htmlFor="email">Your email</label>
           <input
