@@ -3,6 +3,7 @@ import img2 from "./public/images/ecommerce-project.png";
 import img3 from "./public/images/movie-project-1.png";
 import img4 from "./public/images/movie-project-2.png";
 import img5 from "./public/images/recipe-app-project.png";
+import img6 from "./public/images/react-journal-project.png";
 
 export default [
   {
@@ -22,7 +23,7 @@ export default [
     ],
     github: "https://github.com/rpashev/react-journal-app/#readme",
     live: "https://my-journal-app-react.netlify.app/",
-    img: img1,
+    img: img6,
     rest: "https://github.com/rpashev/journal-app-REST",
   },
   {
